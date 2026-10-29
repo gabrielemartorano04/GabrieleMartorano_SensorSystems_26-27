@@ -1,4 +1,4 @@
-# 🎚️ Sensor Systems - Homework Repository
+# 🎚️ Sensor Systems - Homework Repository (A.Y. 2026/2027)
 
 This repository contains all the homework assignments and practical projects developed for the "Sensor Systems" course at Politecnico di Milano.
 
