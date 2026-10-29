@@ -1,32 +1,46 @@
-# 🎚️ Sensor Systems — Homeworks (A.Y. 2026-2027)
+# 🎚️ Sensor Systems — Coursework & Projects (A.Y. 2026-2027)
 
-This repository contains all the homework assignments and practical projects developed for the "Sensor Systems" course.
+This repository contains all the homework assignments, practical laboratory projects, and C firmware developed for the **Sensor Systems** course. The course focuses on bridging the gap between physical sensors and digital data processing through embedded systems.
 
-* **University**: Politecnico di Milano — Department of Electronics, Information and Bioengineering (DEIB)
-* **Professors**: Prof. Federica Villa, Ing. Arianna De Vecchi, Ing. Christian Veronesi
-* **Authors**: Alessandro Carboni, Alberto Casareale, Federico Colombi, Luca Lorusso and Gabriele Martorano
-* **Main Reference**: Sensor Systems file provided during the course.
+* **University:** Politecnico di Milano — Department of Electronics, Information and Bioengineering (DEIB)
+* **Professors:** Prof. Federica Villa, Ing. Arianna De Vecchi, Ing. Christian Veronesi
+* **Authors:** Alessandro Carboni, Alberto Casareale, Federico Colombi, Luca Lorusso and Gabriele Martorano
 
 ---
 
-## Overview and Contents
-The course explores sensor technologies and their integration into embedded systems, divided into two main parts:
-* **Sensors and front-end circuits**: Study of basic principles and circuits for optical (photodiodes, CMOS), thermal, magnetic, piezoelectric, and proximity sensors, as well as accelerometers (MEMS) and microphones.
-* **Microcontrollers**: Use of ARM-Cortex M cores and STM32F4 microcontrollers to interface with sensors. 
-* Activities include managing peripherals such as GPIO, PWM, ADC, SPI, I2C, and USART.
+## 📖 Course Overview
 
-## Tools Used (Hardware & Software)
-* **Hardware**: ST-Nucleo F401RE development board.
-* **Support Hardware**: Sensor expansion board (POLIMI expansion board).
-* **Software**: Embedded systems programming in C.
-* **Toolchain**: Hardware configuration and pin mapping using the STM32CubeMX environment.
+The curriculum explores analog sensor technologies and their digital integration into embedded systems, divided into two core areas:
 
-## Projects and Laboratory Activities
-Weekly homework assignments are tackled in teams and involve developing a practical project alongside a short summary report. The projects included in this repository are:
-* Interaction via light sensors (Light Dependent Resistor).
-* LED activation via clap detection using a microphone.
-* Digital Input/Output (GPIO) configuration and External Interrupt (EXTI) management.
-* Asynchronous serial transmission via the USART interface.
-* Reading smart temperature sensors via the I2C bus.
-* Specific interfacing with the LM75 temperature sensor.
-* Spatial data acquisition (x, y, z) using a 3-axis accelerometer.
+1. **Sensors & Front-End Circuits:** Theoretical principles and circuit design for optical (photodiodes, CMOS), thermal, magnetic, piezoelectric, and proximity sensors, alongside MEMS accelerometers and microphones.
+2. **Microcontrollers & Firmware:** Programming ARM Cortex-M4 cores to interface with hardware sensors. This involves low-level peripheral management, including **GPIO, PWM, ADC, SPI, I2C, and USART**.
+
+---
+
+## 🛠️ Hardware & Software Stack
+
+| Category | Technology / Component |
+| :--- | :--- |
+| **Microcontroller (MCU)** | ST-Nucleo F401RE (ARM Cortex-M4) |
+| **Expansion Board** | Custom POLIMI Sensor Expansion Board |
+| **Programming Language** | Embedded C |
+| **Toolchain & Setup** | STM32CubeMX (Hardware config & pin mapping) |
+
+---
+
+## 🔬 Laboratory Activities & Assignments
+
+Weekly homework assignments were tackled in teams, requiring the development of a practical embedded project from bare-metal configuration to the final firmware, accompanied by a short summary report. 
+
+The projects implemented in this repository include:
+
+* 💡 **Light Interaction:** Analog data acquisition via Light Dependent Resistors (LDR) using the ADC.
+* 👏 **Clap Detection:** Real-time LED activation via acoustic clap detection using a microphone.
+* 🔘 **Interrupt Management:** Advanced Digital Input/Output (GPIO) configuration and External Interrupt (EXTI) handling.
+* 📡 **Serial Communication:** Asynchronous serial data transmission and reception via the USART interface.
+* 🌡️ **Smart Temperature Sensing:** Interfacing and reading environmental data from the LM75 smart temperature sensor via the **I2C** bus.
+* 🚀 **Motion Tracking:** Spatial data acquisition (x, y, z axes) using a 3-axis MEMS accelerometer via digital protocols.
+
+---
+
+> **Note:** All implementations rely on the *Sensor Systems* reference materials and datasheets provided during the laboratory sessions.
