@@ -1,18 +1,13 @@
-# 🎚️ Sensor Systems - Homeworks (A.Y. 2026/2027)
+# 🎚️ Sensor Systems — Homeworks (A.Y. 2026-2027)
 
 This repository contains all the homework assignments and practical projects developed for the "Sensor Systems" course at Politecnico di Milano.
 
-## Course Information
-* **Institution**: Politecnico di Milano
-* **Instructors**: Prof. Federica Villa, Ing. Arianna De Vecchi, Ing. Christian Veronesi
+* **University**: Politecnico di Milano — Department of Electronics, Information and Bioengineering (DEIB)
+* **Professors**: Prof. Federica Villa, Ing. Arianna De Vecchi, Ing. Christian Veronesi
+* **Authors**: Alessandro Carboni, Alberto Casareale, Federico Colombi, Luca Lorusso e Gabriele Martorano
 * **Main Reference**: Sensor Systems file provided during the course.
 
-## Team Members
-* Alessandro Carboni
-* Alberto Casareale
-* Federico Colombi
-* Luca Lorusso
-* Gabriele Martorano
+---
 
 ## Overview and Contents
 The course explores sensor technologies and their integration into embedded systems, divided into two main parts:
