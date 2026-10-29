@@ -4,7 +4,7 @@ This repository contains all the homework assignments and practical projects dev
 
 * **University**: Politecnico di Milano — Department of Electronics, Information and Bioengineering (DEIB)
 * **Professors**: Prof. Federica Villa, Ing. Arianna De Vecchi, Ing. Christian Veronesi
-* **Authors**: Alessandro Carboni, Alberto Casareale, Federico Colombi, Luca Lorusso e Gabriele Martorano
+* **Authors**: Alessandro Carboni, Alberto Casareale, Federico Colombi, Luca Lorusso and Gabriele Martorano
 * **Main Reference**: Sensor Systems file provided during the course.
 
 ---
