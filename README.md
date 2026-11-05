@@ -4,7 +4,8 @@ This repository contains all the homework assignments, practical laboratory proj
 
 * **University:** Politecnico di Milano — Department of Electronics, Information and Bioengineering (DEIB)
 * **Professors:** Prof. Federica Villa, Ing. Arianna De Vecchi, Ing. Christian Veronesi
-* **Authors:** Alessandro Carboni, Alberto Casareale, Federico Colombi, Luca Lorusso and Gabriele Martorano
+* **Authors:** Alessandro Carboni, Alberto Casareale, Federico Colombi, [Luca Lorusso](https://github.com/Luc4Lo) and [Gabriele Martorano](https://github.com/gabrielemartorano04)
+
 
 ---
 
