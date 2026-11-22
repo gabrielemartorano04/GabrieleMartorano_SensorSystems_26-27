@@ -5,3 +5,4 @@ Release/
 *.bin
 *.list
 *.map
+.DS_Store
